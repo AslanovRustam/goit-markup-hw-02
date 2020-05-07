@@ -4,56 +4,52 @@
     --accent-color: #2196F3;
     --white-text-color: #FFFFFF;
     --footer-text-color: rgba(255, 255, 255, 0.4);
+    --our-team-bg-color: #F5F4FA;
+    --bg-color: #E5E5E5;
 }
-/*  вторичный цвет текста #212121 */
-/*  цвет основного текста #757575 */
-/*  цвет при наведении #2196F3 */
-/*  белый #FFFFFF */
-/*  цвет такста в футере rgba(255, 255, 255, 0.4) */
-/* цвет фона НАША КОМАНДА #F5F4FA */
-/* цвет фона #E5E5E5 */
+
 body {
-    background-color: #FFFFFF;
+    background-color: var(--white-text-color);
     color: #757575;
 }
 
 .logo-web {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .logo {
-    color: #212121;
+    color: var(--secondary-text-color);
 }
 .logo:hover, .logo:focus {
-    color:#2196F3 
+    color: var(--accent-color) 
 }
 
 .list {
 list-style: none;
 }
 .site-nav .link {
-    color: #212121;
+    color: var(--secondary-text-color);
 }
 .site-nav .link:hover, .site-nav .link:focus {
-    color:#2196F3 ;
+    color: var(--accent-color) ;
 }
 .site-nav .link.current {
     color: var(--accent-color)
 }
 .list-link {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .list-link:hover, .list-link:focus {
-    color:#2196F3 ;
+    color: var(--accent-color) ;
 }
 .section-hero {
-color: #FFFFFF;
+color: var(--white-text-color);
 }
 .button {
-    color: #FFFFFF;
+    color: var(--white-text-color);
     }
 .section-title {
-    color: #212121;
+    color: var(--secondary-text-color);
 }
 .footer-link {
     color:rgba(255, 255, 255, 0.4) ;
@@ -65,6 +61,7 @@ color: #FFFFFF;
     padding: 12px;
     display: inline-block;
     border-color: 1px transparent;
+    text-decoration: none;
 }
 .button:hover, button:focus {
     color: var(--secondary-text-color);
