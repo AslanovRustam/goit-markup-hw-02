@@ -67,4 +67,11 @@ color: var(--white-text-color);
     color: var(--secondary-text-color);
     background-color: var(--white-text-color);
 }
-    
+.portfolio-button{
+    color: var(--secondary-text-color);
+    background-color: var(--our-team-bg-color);
+}
+.portfolio-button:hover, .portfolio-button:focus{
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
