@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
       </head>
   <body>
@@ -18,7 +19,7 @@
         </ul>
       </nav>
 
-      <ul class="list">
+      <ul class="list list-nav">
         <li>
           <img src="./images/envelope(hover).svg" alt="the envelope" />
           <a href="mailto:info@devstudio.com" class="list-link">info@devstudio.com</a>
@@ -45,7 +46,7 @@
             <img src="./images/Rectangle.svg" alt="" width="278" />
             <img src="./images/radar.svg" alt="radar" />
             <h3 class="section-title">Внимание к деталям</h3>
-            <p>
+            <p class="list-information">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -54,7 +55,7 @@
             <img src="./images/Rectangle.svg" alt="" width="278" />
             <img src="./images/clock.svg" alt="clock" />
             <h3 class="section-title">Пунктуальность</h3>
-            <p>
+            <p class="list-information">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -63,7 +64,7 @@
             <img src="./images/Rectangle.svg" alt="" width="278" />
             <img src="./images/diagram.svg" alt="laptop" />
             <h3 class="section-title">Планирование</h3>
-            <p>
+            <p class="list-information">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -72,7 +73,7 @@
             <img src="./images/Rectangle.svg" alt="" width="278" />
             <img src="./images/astronaut.svg" alt="astronaut" />
             <h3 class="section-title">Современные технологии</h3>
-            <p>
+            <p class="list-information">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -81,10 +82,10 @@
       </section>
       <!--чем мы занимаемся-->
       <section>
-        <h2 class="section-title">Чем мы занимаемся</h2>
+        <h2 class="section-title-team">Чем мы занимаемся</h2>
         <ul class="list">
           <li>
-            <h3 class="section-hero">Десктопные приложения</h3>
+            <h3 class="section-hero-variants">Десктопные приложения</h3>
             <img
               src="./images/app.svg"
               alt="desctop applications"
@@ -92,21 +93,21 @@
             />
           </li>
           <li>
-            <h3 class="section-hero">Мобильные приложения</h3>
+            <h3 class="section-hero-variants">Мобильные приложения</h3>
             <img src="./images/box.svg" alt="mobile applications" width="380" />
           </li>
           <li>
-            <h3 class="section-hero">Дизайнерские решения</h3>
+            <h3 class="section-hero-variants">Дизайнерские решения</h3>
             <img src="./images/mac.svg" alt="design" width="380" />
           </li>
         </ul>
       </section>
       <!--наша команда-->
       <section>
-        <h2 class="section-title">Наша команда</h2>
+        <h2 class="section-title-team">Наша команда</h2>
         <img src="./images/John-Smith.svg" alt="photo" width="278" />
-        <h3 class="section-title">John Smith</h3>
-        <p>Product Designer</p>
+        <h3 class="team">John Smith</h3>
+        <p class="team-job">Product Designer</p>
         <ul class="list">
           <li>
             <a href="https://www.instagram.com/">
@@ -130,8 +131,8 @@
           </li>
         </ul>
         <img src="./images/Marta-Stewart.svg" alt="photo" width="278" />
-        <h3 class="section-title">Marta Stewart</h3>
-        <p>Frontend Developer</p>
+        <h3 class="team">Marta Stewart</h3>
+        <p class="team-job">Frontend Developer</p>
         <ul class="list">
           <li>
             <a href="https://www.instagram.com/">
@@ -155,8 +156,8 @@
           </li>
         </ul>
         <img src="./images/Robert-Jakis.svg" alt="photo" width="278" />
-        <h3 class="section-title">Robert Jakis</h3>
-        <p>Marketing</p>
+        <h3 class="team">Robert Jakis</h3>
+        <p class="team-job">Marketing</p>
         <ul class="list">
           <li>
             <a href="https://www.instagram.com/">
@@ -180,8 +181,8 @@
           </li>
         </ul>
         <img src="./images/Martin-Doe.svg" alt="photo" width="278" />
-        <h3 class="section-title">Martin Doe</h3>
-        <p>UI Designer</p>
+        <h3 class="team">Martin Doe</h3>
+        <p class="team-job">UI Designer</p>
         <ul class="list">
           <li>
             <a href="https://www.instagram.com/">
@@ -207,7 +208,7 @@
       </section>
       <!--Постоянные клиенты-->
       <section>
-        <h1 class="section-title">Постоянные клиенты</h1>
+        <h1 class="section-title-team">Постоянные клиенты</h1>
         <ul class="list">
           <li>
             <a href=""><img src="./images/logo1.svg" alt="company 1" /></a>
@@ -233,12 +234,12 @@
     <footer>
       <address>
         <a href="./index.html" class="logo"> <span class="logo-web">Web</span> <span class="logo-studio">Studio</span></a> <br />
-        <span class="section-hero">г. Киев, пр-т Леси Украинки, 26</span> <br />
+        <span class="footer-adress">г. Киев, пр-т Леси Украинки, 26</span> <br />
         <a href="mailto:info@example.com" class="footer-link">info@example.com</a><br />
         <a href="tel:+380991111111" class="footer-link">+38 099 111 11 11</a>
       </address>
       <div>
-        <b class="section-hero">присоединяйтесь</b>
+        <b class="footer-tittle">присоединяйтесь</b>
         <ul class="list">
           <li>
             <a href="https://www.instagram.com/" 
@@ -259,10 +260,10 @@
         </ul>
       </div>
       <!-- <div>
-        <b class="section-hero">Подпишитесь на рассылку</b>
+        <b class="footer-tittle">Подпишитесь на рассылку</b>
         <a href="" class="button">Подписаться</a>
         </div> -->
-      <p class="footer-link">2020 | Developed by GoIT Students </p>
+      <p class="footer-end">2020 | Developed by GoIT Students </p>
     </footer>
   </body>
 </html>
