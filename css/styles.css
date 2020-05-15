@@ -12,9 +12,21 @@ body {
     background-color: var(--white-text-color);
     color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.page-header{
+
 }
 
 .logo-web {
+    text-decoration: none;
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -24,6 +36,7 @@ body {
     letter-spacing: 0.03em;
 }
 .logo-studio{
+    text-decoration: none;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -47,7 +60,7 @@ body {
 .site-nav .link {
     color: var(--secondary-text-color);
     font-weight: 500;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -58,8 +71,10 @@ body {
     color: var(--accent-color)
 }
 .list-nav{
+    margin: 0;
+    padding: 0;
     font-weight: 500;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -83,30 +98,50 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+h2{
+    margin: 0;
+}
+
+.hero-tittle{
+    margin-top: 0;
+    margin-bottom: 46px;
+}
 .section-hero-variants{
     color: var(--white-text-color);
     font-weight: 700;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height: 1.14;
     text-align: center;
     letter-spacing: 0.03em;
     text-transform: uppercase
 }
 .button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    text-decoration: none;
+    border-color: transparent;
+    min-width: 200px;
+    
     color: var(--white-text-color);
+    background-color: var(--accent-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
     /* identical to box height, or 187% */
-    display: flex;
+    /* display: flex; */
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     }
+.button:hover, button:focus {
+    color: var(--secondary-text-color);
+    background-color: var(--white-text-color);
+}
 .section-title {
     color: var(--secondary-text-color);
     font-weight: 700;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -137,7 +172,7 @@ body {
     letter-spacing: 0.03em;
 }
 .team-job{
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.19;
     /* identical to box height */
@@ -145,8 +180,8 @@ body {
     letter-spacing: 0.03em;
 }
 .list-information{
-    font-weight: 400;
-    font-size: 14px;
+    /* font-weight: 400; */
+    /* font-size: 14px; */
     line-height: 1.71;
     /* or 171% */
     letter-spacing: 0.03em;
@@ -154,30 +189,30 @@ body {
 .footer-adress{
     color: var(--white-text-color);
     font-weight: 700;
-    font-size: 14px;
+    /* font-size: 14px; */
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .footer-tittle{
     color: var(--white-text-color);
-    font-weight: 400;
-    font-size: 14px;
+    /* font-weight: 400; */
+    /* font-size: 14px; */
     line-height: 1.71;
     /* or 171% */
     letter-spacing: 0.03em;
 }
 .footer-link {
     color:rgba(255, 255, 255, 0.6) ;
-    font-weight: 400;
-    font-size: 14px;
+    /* font-weight: 400; */
+    /* font-size: 14px; */
     line-height: 1.71;
     /* or 171% */
     letter-spacing: 0.03em;
 }
 .footer-end{
     color: var(--footer-text-color);
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 12px;
     line-height: 2;
     /* or 200% */
@@ -185,19 +220,16 @@ body {
     letter-spacing: 0.03em;
 
 }
-.button {
+/* .button {
     color: var(--white-text-color);
-    background-color: var(--accent-color);
-    font-size: 24px;
+    background-color: var(--accent-color); */
+    /* font-size: 24px;
     padding: 12px;
     display: inline-block;
     border-color: 1px transparent;
-    text-decoration: none;
-}
-.button:hover, button:focus {
-    color: var(--secondary-text-color);
-    background-color: var(--white-text-color);
-}
+    text-decoration: none; */
+/* } */
+
 
 /* Портфолио */
 
@@ -226,7 +258,7 @@ padding: 7px 2px;
     letter-spacing: 0.06em;
 }
 .portfolio-type{
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: 1.87;
     /* identical to box height, or 187% */
@@ -234,7 +266,7 @@ padding: 7px 2px;
 }
 .portfolio-discription{
     color: var(--white-text-color);
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 18px;
     line-height: 1.56;
     /* or 156% */
